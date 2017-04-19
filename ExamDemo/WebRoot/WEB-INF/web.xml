@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginSvl</servlet-name>
+    <servlet-class>com.icss.controller.LoginSvl</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginoutSvl</servlet-name>
+    <servlet-class>com.icss.controller.LoginoutSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.StudentinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddstudentSvl</servlet-name>
+    <servlet-class>com.icss.controller.AddstudentSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveStudentSvl</servlet-name>
+    <servlet-class>com.icss.controller.RemoveStudentSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckstudentSvl</servlet-name>
+    <servlet-class>com.icss.controller.CheckstudentSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditstudentSvl</servlet-name>
+    <servlet-class>com.icss.controller.EditstudentSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TeacherinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.TeacherinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClassinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.ClassinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.CourseinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddTeacherSvl</servlet-name>
+    <servlet-class>com.icss.controller.AddTeacherSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveTeacherSvl</servlet-name>
+    <servlet-class>com.icss.controller.RemoveTeacherSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditTeacherSvl</servlet-name>
+    <servlet-class>com.icss.controller.EditTeacherSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckTeacherSvl</servlet-name>
+    <servlet-class>com.icss.controller.CheckTeacherSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddClassSvl</servlet-name>
+    <servlet-class>com.icss.controller.AddClassSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveClassSvl</servlet-name>
+    <servlet-class>com.icss.controller.RemoveClassSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditClassSvl</servlet-name>
+    <servlet-class>com.icss.controller.EditClassSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckClassSvl</servlet-name>
+    <servlet-class>com.icss.controller.CheckClassSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.QuestionSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckaccountSvl</servlet-name>
+    <servlet-class>com.icss.controller.CheckaccountSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NoticeinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.NoticeinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChecknoticeSvl</servlet-name>
+    <servlet-class>com.icss.controller.ChecknoticeSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NoticeaddSvl</servlet-name>
+    <servlet-class>com.icss.controller.NoticeaddSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditnoticeSvl</servlet-name>
+    <servlet-class>com.icss.controller.EditnoticeSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemovenoticeSvl</servlet-name>
+    <servlet-class>com.icss.controller.RemovenoticeSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KnowledgeAddSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.KnowledgeAddSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KnowledgeinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.KnowledgeinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>KnowledgeSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.KnowledgeSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditknowledgeSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.EditknowledgeSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveknowledgeSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.RemoveknowledgeSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionInfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.QuestionInfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuestionAddSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.QuestionAddSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditQuestionSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.EditQuestionSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveQuestionSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.RemoveQuestionSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddtestSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.AddtestSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChecktestSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.ChecktestSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectSvl</servlet-name>
+    <servlet-class>com.icss.controller.SelectSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectSvl2</servlet-name>
+    <servlet-class>com.icss.controller.SelectSvl2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SelectSvl3</servlet-name>
+    <servlet-class>com.icss.controller.SelectSvl3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EdittestSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.EdittestSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TqkinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.TqkinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditpaperSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.EditpaperSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddpaperSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.AddpaperSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PaperinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.PaperinfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemovepaperSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.RemovepaperSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemovetestSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.RemovetestSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamplanSvl</servlet-name>
+    <servlet-class>com.icss.controller.ExamplanSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamplaneditSvl</servlet-name>
+    <servlet-class>com.icss.controller.ExamplaneditSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditplanSvl</servlet-name>
+    <servlet-class>com.icss.controller.EditplanSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveplanSvl</servlet-name>
+    <servlet-class>com.icss.controller.RemoveplanSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckexamplanSvl</servlet-name>
+    <servlet-class>com.icss.controller.CheckexamplanSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Correctplan</servlet-name>
+    <servlet-class>com.icss.controller.Correctplan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckPwdSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.CheckPwdSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChoosePaperSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.ChoosePaperSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EditPwdSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.EditPwdSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.ExamSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonInfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.PersonInfoSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CorrectpaperSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.CorrectpaperSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QuerypaperSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.QuerypaperSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckScoreSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.CheckScoreSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChooseTestSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.ChooseTestSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryscoreSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.QueryscoreSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemovetqkSvl</servlet-name>
+    <servlet-class>com.icss.controller.teacher.RemovetqkSvl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ScoreinfoSvl</servlet-name>
+    <servlet-class>com.icss.controller.student.ScoreinfoSvl</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginSvl</servlet-name>
+    <url-pattern>/LoginSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginoutSvl</servlet-name>
+    <url-pattern>/LoginoutSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentinfoSvl</servlet-name>
+    <url-pattern>/StudentinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddstudentSvl</servlet-name>
+    <url-pattern>/AddstudentSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveStudentSvl</servlet-name>
+    <url-pattern>/RemoveStudentSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckstudentSvl</servlet-name>
+    <url-pattern>/CheckstudentSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditstudentSvl</servlet-name>
+    <url-pattern>/EditstudentSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherinfoSvl</servlet-name>
+    <url-pattern>/TeacherinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassinfoSvl</servlet-name>
+    <url-pattern>/ClassinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseinfoSvl</servlet-name>
+    <url-pattern>/CourseinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTeacherSvl</servlet-name>
+    <url-pattern>/AddTeacherSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveTeacherSvl</servlet-name>
+    <url-pattern>/RemoveTeacherSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditTeacherSvl</servlet-name>
+    <url-pattern>/EditTeacherSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckTeacherSvl</servlet-name>
+    <url-pattern>/CheckTeacherSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddClassSvl</servlet-name>
+    <url-pattern>/AddClassSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveClassSvl</servlet-name>
+    <url-pattern>/RemoveClassSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditClassSvl</servlet-name>
+    <url-pattern>/EditClassSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckClassSvl</servlet-name>
+    <url-pattern>/CheckClassSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionSvl</servlet-name>
+    <url-pattern>/teacher/QuestionSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckaccountSvl</servlet-name>
+    <url-pattern>/CheckaccountSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticeinfoSvl</servlet-name>
+    <url-pattern>/NoticeinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChecknoticeSvl</servlet-name>
+    <url-pattern>/ChecknoticeSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditnoticeSvl</servlet-name>
+    <url-pattern>/EditnoticeSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemovenoticeSvl</servlet-name>
+    <url-pattern>/RemovenoticeSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticeaddSvl</servlet-name>
+    <url-pattern>/NoticeaddSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KnowledgeAddSvl</servlet-name>
+    <url-pattern>/teacher/KnowledgeAddSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KnowledgeinfoSvl</servlet-name>
+    <url-pattern>/teacher/KnowledgeinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>KnowledgeSvl</servlet-name>
+    <url-pattern>/teacher/KnowledgeSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditknowledgeSvl</servlet-name>
+    <url-pattern>/teacher/EditknowledgeSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveknowledgeSvl</servlet-name>
+    <url-pattern>/teacher/RemoveknowledgeSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionInfoSvl</servlet-name>
+    <url-pattern>/teacher/QuestionInfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionAddSvl</servlet-name>
+    <url-pattern>/teacher/QuestionAddSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditQuestionSvl</servlet-name>
+    <url-pattern>/teacher/EditQuestionSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveQuestionSvl</servlet-name>
+    <url-pattern>/teacher/RemoveQuestionSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddtestSvl</servlet-name>
+    <url-pattern>/teacher/AddtestSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChecktestSvl</servlet-name>
+    <url-pattern>/teacher/ChecktestSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectSvl</servlet-name>
+    <url-pattern>/SelectSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectSvl2</servlet-name>
+    <url-pattern>/SelectSvl2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectSvl3</servlet-name>
+    <url-pattern>/SelectSvl3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EdittestSvl</servlet-name>
+    <url-pattern>/teacher/EdittestSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TqkinfoSvl</servlet-name>
+    <url-pattern>/teacher/TqkinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditpaperSvl</servlet-name>
+    <url-pattern>/teacher/EditpaperSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddpaperSvl</servlet-name>
+    <url-pattern>/teacher/AddpaperSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PaperinfoSvl</servlet-name>
+    <url-pattern>/teacher/PaperinfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemovepaperSvl</servlet-name>
+    <url-pattern>/teacher/RemovepaperSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemovetestSvl</servlet-name>
+    <url-pattern>/teacher/RemovetestSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamplanSvl</servlet-name>
+    <url-pattern>/ExamplanSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamplaneditSvl</servlet-name>
+    <url-pattern>/ExamplaneditSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditplanSvl</servlet-name>
+    <url-pattern>/EditplanSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveplanSvl</servlet-name>
+    <url-pattern>/RemoveplanSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckexamplanSvl</servlet-name>
+    <url-pattern>/CheckexamplanSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Correctplan</servlet-name>
+    <url-pattern>/Correctplan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckPwdSvl</servlet-name>
+    <url-pattern>/student/CheckPwdSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChoosePaperSvl</servlet-name>
+    <url-pattern>/student/ChoosePaperSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditPwdSvl</servlet-name>
+    <url-pattern>/student/EditPwdSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamSvl</servlet-name>
+    <url-pattern>/student/ExamSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInfoSvl</servlet-name>
+    <url-pattern>/student/PersonInfoSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CorrectpaperSvl</servlet-name>
+    <url-pattern>/teacher/CorrectpaperSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuerypaperSvl</servlet-name>
+    <url-pattern>/teacher/QuerypaperSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckScoreSvl</servlet-name>
+    <url-pattern>/student/CheckScoreSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChooseTestSvl</servlet-name>
+    <url-pattern>/student/ChooseTestSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryscoreSvl</servlet-name>
+    <url-pattern>/teacher/QueryscoreSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemovetqkSvl</servlet-name>
+    <url-pattern>/teacher/RemovetqkSvl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreinfoSvl</servlet-name>
+    <url-pattern>/student/ScoreinfoSvl</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+  
+  	<filter>
+		<filter-name>AuthenticationFilter1</filter-name>
+		<filter-class>com.icss.filter.AuthenticationFilter1</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>AuthenticationFilter1</filter-name>
+		<url-pattern>/admin/*</url-pattern>
+	</filter-mapping>
+  
+  
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

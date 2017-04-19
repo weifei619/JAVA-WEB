@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-io.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/json-lib-2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

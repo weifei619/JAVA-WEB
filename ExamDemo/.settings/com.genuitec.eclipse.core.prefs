@@ -1,0 +1,4 @@
+#Wed Oct 19 22:05:31 CST 2016
+eclipse.preferences.version=1
+validator.Checked=WebRoot/admin,WebRoot/teacher,WebRoot/WEB-INF/web.xml,WebRoot/pages/login.jsp,WebRoot/student/testpaper.jsp,WebRoot/js
+validator.Unchecked=src,/
